@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30230C8E1E709EF400D48A46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30230C8D1E709EF400D48A46 /* AppDelegate.swift */; };
+		30230C901E709EF400D48A46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30230C8F1E709EF400D48A46 /* ViewController.swift */; };
+		30230C931E709EF400D48A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30230C911E709EF400D48A46 /* Main.storyboard */; };
+		30230C951E709EF400D48A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30230C941E709EF400D48A46 /* Assets.xcassets */; };
+		30230C981E709EF400D48A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30230C961E709EF400D48A46 /* LaunchScreen.storyboard */; };
+		30230CA31E709EF400D48A46 /* RobotAndPencilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30230CA21E709EF400D48A46 /* RobotAndPencilTests.swift */; };
+		30230CAE1E709EF400D48A46 /* RobotAndPencilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30230CAD1E709EF400D48A46 /* RobotAndPencilUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30230C9F1E709EF400D48A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30230C821E709EF400D48A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30230C891E709EF400D48A46;
+			remoteInfo = RobotAndPencil;
+		};
+		30230CAA1E709EF400D48A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30230C821E709EF400D48A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30230C891E709EF400D48A46;
+			remoteInfo = RobotAndPencil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30230C8A1E709EF400D48A46 /* RobotAndPencil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobotAndPencil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30230C8D1E709EF400D48A46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30230C8F1E709EF400D48A46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30230C921E709EF400D48A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30230C941E709EF400D48A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30230C971E709EF400D48A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30230C991E709EF400D48A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30230C9E1E709EF400D48A46 /* RobotAndPencilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobotAndPencilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30230CA21E709EF400D48A46 /* RobotAndPencilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotAndPencilTests.swift; sourceTree = "<group>"; };
+		30230CA41E709EF400D48A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30230CA91E709EF400D48A46 /* RobotAndPencilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobotAndPencilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30230CAD1E709EF400D48A46 /* RobotAndPencilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotAndPencilUITests.swift; sourceTree = "<group>"; };
+		30230CAF1E709EF400D48A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30230C871E709EF400D48A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30230C9B1E709EF400D48A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30230CA61E709EF400D48A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30230C811E709EF400D48A46 = {
+			isa = PBXGroup;
+			children = (
+				30230C8C1E709EF400D48A46 /* RobotAndPencil */,
+				30230CA11E709EF400D48A46 /* RobotAndPencilTests */,
+				30230CAC1E709EF400D48A46 /* RobotAndPencilUITests */,
+				30230C8B1E709EF400D48A46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30230C8B1E709EF400D48A46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30230C8A1E709EF400D48A46 /* RobotAndPencil.app */,
+				30230C9E1E709EF400D48A46 /* RobotAndPencilTests.xctest */,
+				30230CA91E709EF400D48A46 /* RobotAndPencilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30230C8C1E709EF400D48A46 /* RobotAndPencil */ = {
+			isa = PBXGroup;
+			children = (
+				30230C8D1E709EF400D48A46 /* AppDelegate.swift */,
+				30230C8F1E709EF400D48A46 /* ViewController.swift */,
+				30230C911E709EF400D48A46 /* Main.storyboard */,
+				30230C941E709EF400D48A46 /* Assets.xcassets */,
+				30230C961E709EF400D48A46 /* LaunchScreen.storyboard */,
+				30230C991E709EF400D48A46 /* Info.plist */,
+			);
+			path = RobotAndPencil;
+			sourceTree = "<group>";
+		};
+		30230CA11E709EF400D48A46 /* RobotAndPencilTests */ = {
+			isa = PBXGroup;
+			children = (
+				30230CA21E709EF400D48A46 /* RobotAndPencilTests.swift */,
+				30230CA41E709EF400D48A46 /* Info.plist */,
+			);
+			path = RobotAndPencilTests;
+			sourceTree = "<group>";
+		};
+		30230CAC1E709EF400D48A46 /* RobotAndPencilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30230CAD1E709EF400D48A46 /* RobotAndPencilUITests.swift */,
+				30230CAF1E709EF400D48A46 /* Info.plist */,
+			);
+			path = RobotAndPencilUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30230C891E709EF400D48A46 /* RobotAndPencil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30230CB21E709EF400D48A46 /* Build configuration list for PBXNativeTarget "RobotAndPencil" */;
+			buildPhases = (
+				30230C861E709EF400D48A46 /* Sources */,
+				30230C871E709EF400D48A46 /* Frameworks */,
+				30230C881E709EF400D48A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RobotAndPencil;
+			productName = RobotAndPencil;
+			productReference = 30230C8A1E709EF400D48A46 /* RobotAndPencil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30230C9D1E709EF400D48A46 /* RobotAndPencilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30230CB51E709EF400D48A46 /* Build configuration list for PBXNativeTarget "RobotAndPencilTests" */;
+			buildPhases = (
+				30230C9A1E709EF400D48A46 /* Sources */,
+				30230C9B1E709EF400D48A46 /* Frameworks */,
+				30230C9C1E709EF400D48A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30230CA01E709EF400D48A46 /* PBXTargetDependency */,
+			);
+			name = RobotAndPencilTests;
+			productName = RobotAndPencilTests;
+			productReference = 30230C9E1E709EF400D48A46 /* RobotAndPencilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30230CA81E709EF400D48A46 /* RobotAndPencilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30230CB81E709EF400D48A46 /* Build configuration list for PBXNativeTarget "RobotAndPencilUITests" */;
+			buildPhases = (
+				30230CA51E709EF400D48A46 /* Sources */,
+				30230CA61E709EF400D48A46 /* Frameworks */,
+				30230CA71E709EF400D48A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30230CAB1E709EF400D48A46 /* PBXTargetDependency */,
+			);
+			name = RobotAndPencilUITests;
+			productName = RobotAndPencilUITests;
+			productReference = 30230CA91E709EF400D48A46 /* RobotAndPencilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30230C821E709EF400D48A46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kaleb Riley";
+				TargetAttributes = {
+					30230C891E709EF400D48A46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZMH52DMS4G;
+						ProvisioningStyle = Automatic;
+					};
+					30230C9D1E709EF400D48A46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZMH52DMS4G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30230C891E709EF400D48A46;
+					};
+					30230CA81E709EF400D48A46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZMH52DMS4G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30230C891E709EF400D48A46;
+					};
+				};
+			};
+			buildConfigurationList = 30230C851E709EF400D48A46 /* Build configuration list for PBXProject "RobotAndPencil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30230C811E709EF400D48A46;
+			productRefGroup = 30230C8B1E709EF400D48A46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30230C891E709EF400D48A46 /* RobotAndPencil */,
+				30230C9D1E709EF400D48A46 /* RobotAndPencilTests */,
+				30230CA81E709EF400D48A46 /* RobotAndPencilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30230C881E709EF400D48A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30230C981E709EF400D48A46 /* LaunchScreen.storyboard in Resources */,
+				30230C951E709EF400D48A46 /* Assets.xcassets in Resources */,
+				30230C931E709EF400D48A46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30230C9C1E709EF400D48A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30230CA71E709EF400D48A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30230C861E709EF400D48A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30230C901E709EF400D48A46 /* ViewController.swift in Sources */,
+				30230C8E1E709EF400D48A46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30230C9A1E709EF400D48A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30230CA31E709EF400D48A46 /* RobotAndPencilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30230CA51E709EF400D48A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30230CAE1E709EF400D48A46 /* RobotAndPencilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30230CA01E709EF400D48A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30230C891E709EF400D48A46 /* RobotAndPencil */;
+			targetProxy = 30230C9F1E709EF400D48A46 /* PBXContainerItemProxy */;
+		};
+		30230CAB1E709EF400D48A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30230C891E709EF400D48A46 /* RobotAndPencil */;
+			targetProxy = 30230CAA1E709EF400D48A46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30230C911E709EF400D48A46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30230C921E709EF400D48A46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30230C961E709EF400D48A46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30230C971E709EF400D48A46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30230CB01E709EF400D48A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30230CB11E709EF400D48A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30230CB31E709EF400D48A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZMH52DMS4G;
+				INFOPLIST_FILE = RobotAndPencil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.tyko9.RobotAndPencil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		30230CB41E709EF400D48A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZMH52DMS4G;
+				INFOPLIST_FILE = RobotAndPencil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.tyko9.RobotAndPencil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		30230CB61E709EF400D48A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZMH52DMS4G;
+				INFOPLIST_FILE = RobotAndPencilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.tyko9.RobotAndPencilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RobotAndPencil.app/RobotAndPencil";
+			};
+			name = Debug;
+		};
+		30230CB71E709EF400D48A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZMH52DMS4G;
+				INFOPLIST_FILE = RobotAndPencilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.tyko9.RobotAndPencilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RobotAndPencil.app/RobotAndPencil";
+			};
+			name = Release;
+		};
+		30230CB91E709EF400D48A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZMH52DMS4G;
+				INFOPLIST_FILE = RobotAndPencilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.tyko9.RobotAndPencilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RobotAndPencil;
+			};
+			name = Debug;
+		};
+		30230CBA1E709EF400D48A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZMH52DMS4G;
+				INFOPLIST_FILE = RobotAndPencilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.tyko9.RobotAndPencilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RobotAndPencil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30230C851E709EF400D48A46 /* Build configuration list for PBXProject "RobotAndPencil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30230CB01E709EF400D48A46 /* Debug */,
+				30230CB11E709EF400D48A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30230CB21E709EF400D48A46 /* Build configuration list for PBXNativeTarget "RobotAndPencil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30230CB31E709EF400D48A46 /* Debug */,
+				30230CB41E709EF400D48A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30230CB51E709EF400D48A46 /* Build configuration list for PBXNativeTarget "RobotAndPencilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30230CB61E709EF400D48A46 /* Debug */,
+				30230CB71E709EF400D48A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30230CB81E709EF400D48A46 /* Build configuration list for PBXNativeTarget "RobotAndPencilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30230CB91E709EF400D48A46 /* Debug */,
+				30230CBA1E709EF400D48A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30230C821E709EF400D48A46 /* Project object */;
+}
