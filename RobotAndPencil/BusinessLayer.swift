@@ -9,7 +9,10 @@
 import Foundation
 
 struct BussinessLayer {
+    
     static func delete(comment: Comment, completion: @escaping (Bool) -> Void)  {
+        // Here we can use either the network or any future remote service. 
+        //The implementaion of the request is left up to the service(Database framework or remote serivce) we are using.
         Network.request(target: CommentTarget.delete(comment: comment)) {
             if case .success(_) = $0 {
                 completion(true)
@@ -20,7 +23,7 @@ struct BussinessLayer {
     }
     
     static func delete(annotation: Annotation, completion: @escaping (Bool) -> Void) {
-        Network.request(target: AnnotationTarget.delete(annotation: annotation)) {
+        Database.request(target: AnnotationTarget.delete(annotation: annotation)) {
             if case .success(_) = $0 {
                 completion(true)
             } else {
@@ -29,3 +32,7 @@ struct BussinessLayer {
         }
     }
 }
+
+struct BussinessLayer2 {
+}
+

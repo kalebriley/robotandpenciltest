@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol StorageType {
+protocol Updatable {
     static func request(target: TargetType, completion: @escaping (Result<Decodable.JSON>) -> Void)
 }

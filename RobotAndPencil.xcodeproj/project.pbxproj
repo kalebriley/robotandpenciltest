@@ -21,6 +21,7 @@
 		30230CC61E70A82200D48A46 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30230CC51E70A82200D48A46 /* Result.swift */; };
 		30230CC91E70B6EB00D48A46 /* BusinessLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30230CC81E70B6EB00D48A46 /* BusinessLayer.swift */; };
 		30230CCB1E70B73E00D48A46 /* RPAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30230CCA1E70B73E00D48A46 /* RPAnnotation.swift */; };
+		4BF0D3661E712EB100405E98 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF0D3651E712EB100405E98 /* Updatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		30230CC51E70A82200D48A46 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		30230CC81E70B6EB00D48A46 /* BusinessLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessLayer.swift; sourceTree = "<group>"; };
 		30230CCA1E70B73E00D48A46 /* RPAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPAnnotation.swift; sourceTree = "<group>"; };
+		4BF0D3651E712EB100405E98 /* Updatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Updatable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				30230CC01E70A13700D48A46 /* Decodable.swift */,
 				30230CBE1E70A0B100D48A46 /* TargetType.swift */,
 				30230CC51E70A82200D48A46 /* Result.swift */,
+				4BF0D3651E712EB100405E98 /* Updatable.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				30230C901E709EF400D48A46 /* ViewController.swift in Sources */,
 				30230CC31E70A79B00D48A46 /* Network.swift in Sources */,
 				30230C8E1E709EF400D48A46 /* AppDelegate.swift in Sources */,
+				4BF0D3661E712EB100405E98 /* Updatable.swift in Sources */,
 				30230CC61E70A82200D48A46 /* Result.swift in Sources */,
 				30230CC11E70A13700D48A46 /* Decodable.swift in Sources */,
 				30230CBC1E709F1F00D48A46 /* RPComment.swift in Sources */,
@@ -574,6 +578,7 @@
 				30230CB41E709EF400D48A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30230CB51E709EF400D48A46 /* Build configuration list for PBXNativeTarget "RobotAndPencilTests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +587,7 @@
 				30230CB71E709EF400D48A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30230CB81E709EF400D48A46 /* Build configuration list for PBXNativeTarget "RobotAndPencilUITests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +596,7 @@
 				30230CBA1E709EF400D48A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

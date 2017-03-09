@@ -19,7 +19,8 @@ struct Mock {
 // MARK: - Network
 /*  NOTE: This is intended to be a proof of concept, by generalizing the request function, any remote service would be able to be reached with a simple change of the base url, given the routes stay the same. If the routes were to change one would only have to chage that in the target and no further changes to other classes would be needed.
  */
-struct Network {
+// RESTFUL interface
+struct Network: Updatable {
     
     /// Request is a class method of network used to make request.
     ///
@@ -49,3 +50,29 @@ struct Network {
         }
     }
 }
+
+// NOTE: - This is a mock database as if we were using some framework.
+struct Database: Updatable {
+    
+    static func request(target: TargetType, completion: @escaping (Result<Decodable.JSON>) -> Void) {
+        switch target.method {
+        case .delete:
+            Database.delete()
+        case .get:
+            Database.get()
+        case .update:
+            Database.update()
+        case.post:
+            Database.post()
+        }
+    }
+    
+    static func update() {}
+    static func delete() {}
+    static func post() {}
+    static func get() {}
+}
+
+
+
+
